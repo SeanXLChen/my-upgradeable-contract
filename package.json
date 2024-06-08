@@ -1,0 +1,23 @@
+{
+  "name": "my-upgradeable-contract",
+  "version": "1.0.0",
+  "description": "My study and trial building of a upgradeable solidity smart contract using hardhat and OpenZeppelin Hardhat Upgrades plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.6",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts-upgradeable": "^5.0.2",
+    "@openzeppelin/hardhat-upgrades": "^3.1.1",
+    "ethers": "^6.13.0",
+    "hardhat": "^2.22.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
